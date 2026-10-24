@@ -1,0 +1,20 @@
+.{
+    .name = .prototype,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .fingerprint = 0xa36a5ae4765d453e,
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .nimble = .{
+            .path = "../nimble",
+        },
+        .dvui = .{
+            .url = "https://github.com/david-vanderson/dvui/archive/275c248f6a2a80f92723ac93242310e16201a49b.tar.gz",
+            .hash = "dvui-0.6.0-dev-AQFJmWZLBAG6E9WSTCqdouXXCC8gF91z6oiLmZvh3e-5",
+        },
+    },
+}
